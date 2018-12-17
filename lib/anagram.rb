@@ -11,7 +11,7 @@ class Anagram
     match = []
     poss_anagrams.each do |word|
       
-      if word.split(" ").sort == @word.split(" ").sort
+      if word.split("").sort == @word.split("").sort
         match << word
       end
     end
