@@ -11,11 +11,10 @@ class Anagram
     match = []
     poss_anagrams.each do |word|
       
-      if word.split("").sort == @word.split("").sort 
+      if word.split("").sort.join == @word.split("").sort 
         match << word
       else 
       match
-      word.split("").sort
       end
     end
   end
