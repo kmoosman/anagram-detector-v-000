@@ -13,9 +13,8 @@ class Anagram
       
       if item.split("").sort.join == @word.split("").sort.join
         match << item
-      else 
-      match
       end
+      
     end
   end
 
