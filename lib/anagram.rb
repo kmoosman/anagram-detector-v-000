@@ -12,7 +12,7 @@ class Anagram
       if word.split.sort == @word.split.sort 
         word
       else 
-       ["hello"]
+       word.split.sort
       end
     end
   end
