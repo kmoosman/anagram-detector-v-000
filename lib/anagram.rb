@@ -11,6 +11,8 @@ class Anagram
     poss_anagrams.each do |word|
       if word.split.sort == @word.split.sort 
         word
+      else 
+       ["hello"]
       end
     end
   end
