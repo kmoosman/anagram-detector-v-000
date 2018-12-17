@@ -15,6 +15,7 @@ class Anagram
         match << word
       else 
       match
+      word.split("").sort
       end
     end
   end
