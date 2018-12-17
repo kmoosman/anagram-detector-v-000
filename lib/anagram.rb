@@ -9,9 +9,9 @@ class Anagram
   
   def match(poss_anagrams)
     match = []
-    poss_anagrams.each do |word|
+    poss_anagrams.each do |item|
       
-      if word.split("").sort.join == @word.split("").sort.join
+      if item.split("").sort.join == @word.split("").sort.join
         match << word
       else 
       match
