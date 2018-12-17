@@ -11,9 +11,6 @@ class Anagram
     poss_anagrams.each do |word|
       if word.split.sort == @word.split.sort 
         word
-      else 
-        []
-      end
     end
   end
 
