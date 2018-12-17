@@ -12,7 +12,7 @@ class Anagram
     poss_anagrams.each do |item|
       
       if item.split("").sort.join == @word.split("").sort.join
-        match << word
+        match << item
       else 
       match
       end
